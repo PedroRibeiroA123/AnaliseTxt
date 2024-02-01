@@ -81,6 +81,7 @@ for(i in 1:length(temas)){
     coords_t[i,ii] <- sum(temp[,ii+1])
   }
 }
+rm(temp)
 
 #Preparação para previsão:
 coords_t <- data.frame(t(coords_t))[-1,]
