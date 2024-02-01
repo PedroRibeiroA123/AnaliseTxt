@@ -1,4 +1,4 @@
-#Caso não tenhas os pacotes, descomente as linhas abaixo
+#Caso não tenha os pacotes, descomente as linhas abaixo
 #install.packages("tidyverse")
 #install.packages("dplyr")
 library(tidyverse)
